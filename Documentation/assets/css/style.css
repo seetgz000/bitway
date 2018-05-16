@@ -1,0 +1,124 @@
+ /*************************************
+
+Template Name: Bitway - Crypto Currency HTML5 Template
+Author: Theme_Choices
+Version: 1.0
+Design and Developed by: Theme_Choices
+
+****************************************/
+
+body {
+  padding-top: 50px;
+}
+p{
+	font-size:20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #000;
+  background:#999;
+}
+.documentation-section_1-heading h2 {
+  margin-top: 90px;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.documentation-section_1-heading p {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+}
+.documentation-section_1-heading a{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+  display:block;
+}
+.documentation-section_1-heading hr{
+	border-top:2px solid #999;
+}
+#template-install{
+	margin-top:150px;
+}
+#template-install hr{
+	border-top:2px solid #999;
+	margin-bottom:30px;
+}
+.template-install-content h3{
+	font-weight:bold;
+	padding-top:40px;
+}
+#pages{
+	margin-top:300px;
+}
+#pages hr{
+	border-top:2px solid #999;
+	margin-bottom:30px;
+}
+.page-content h3{
+	font-weight:bold;
+	padding-top:40px;
+}
+#fonts{
+	margin-top:150px;
+}
+#fonts hr{
+	border-top:2px solid #999;
+	margin-bottom:30px;
+}
+.font-content h3{
+	font-weight:bold;
+	padding-top:40px;
+}
+#theme_option1{
+	margin-top:150px;
+}
+#theme_option1 hr{
+	border-top:2px solid #999;
+	margin-bottom:30px;
+}
+.theme1-content h3{
+	font-weight:bold;
+	padding-top:40px;
+}
+#theme_option2{
+	margin-top:150px;
+}
+#theme_option2 hr{
+	border-top:2px solid #999;
+	margin-bottom:30px;
+}
+.theme2-content h3{
+	font-weight:bold;
+	padding-top:40px;
+}
+#theme_option3{
+	margin-top:150px;
+}
+#theme_option3 hr{
+	border-top:2px solid #999;
+	margin-bottom:30px;
+}
+.theme3-content h3{
+	font-weight:bold;
+	padding-top:40px;
+}
+.theme3-content img{
+	padding-bottom:50px;
+}
+.footer-text{
+	margin-top:150px;
+	padding-bottom:40px;
+}
+.footer-text p{
+	font-size:18px;
+}
+.footer-text h6{
+	font-size:36px;
+	margin-top:15px;
+}
