@@ -1663,21 +1663,16 @@ tr.light td{
     top: 0;
     width: 100%;
 }
-/*============== Shattering Text ================*/  
+/*============== Shattering Text ================*/ 
 figure.shattering_title {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100%;
 	left: 0;
-	position: absolute;
 	top: 0;
 	width: 100%;
 	z-index: 1;
-  }
-  
-  svg {
-	width: 90vw;
   }
   
   svg > * {
@@ -1713,3 +1708,11 @@ figure.shattering_title {
   
 /*========= End of Shattering Text ================*/
   
+#home-banner {
+	height: 100%;
+	padding-bottom: 5%;
+}
+
+.about-section3, .counter-dark-section, .team-dark-section, .footer-dark-section {
+	background:url(../images/star_background.jpg) center;
+}
