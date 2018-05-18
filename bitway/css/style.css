@@ -1716,3 +1716,46 @@ figure.shattering_title {
 .about-section3, .counter-dark-section, .team-dark-section, .footer-dark-section {
 	background:url(../images/star_background.jpg) center;
 }
+
+.team-items:hover .overlay {
+    top: 40%;
+}
+
+.header-logo a span,
+.header-nav li.active a,
+.header-nav li a:hover,
+.about-text:hover h2, 
+.about-text:hover h3,
+.roadmap-content2 span,
+.header-nav li ul li > a,
+.panel-dark-title a span {
+	color: #fbae1c!important;
+}
+
+.about-text h2, 
+.about-text h3 {
+	color: #ffe9c1!important;
+}
+
+.header-nav li ul li > a:hover,
+.team-items .overlay,
+.faq-subscribe #button {
+	background: #fbae1c;
+}
+.banner-dark-btn,
+.about-dark-btn {
+    background: #fbae1c;
+    color: #fff;
+    box-shadow: inset 0 0 0 0 #fbae1c;
+}
+
+.roadmap-icon2 {
+    background: #ffdb98 none repeat scroll 0 0;
+    border: 5px solid #fff;
+    color: #000;
+}
+
+.contact-form button {
+	background: #fbae1c;
+	border: 1px solid #fbae1c;
+}

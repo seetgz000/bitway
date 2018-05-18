@@ -5,6 +5,8 @@ $( document ).ready(function() {
   
 });
 
+var showHide = "";
+
 var tmax_optionsGlobal = {
   repeat: 0,
   repeatDelay: 0.65,
@@ -61,7 +63,7 @@ $svg.hover(
     tl.timeScale(0.15);
   },
   function() {
-    tl.timeScale(0.9);
+    tl.timeScale(1);
   });
 
 function getRandom(min, max) {
@@ -71,15 +73,27 @@ function getRandom(min, max) {
 
 $(window).scroll(function (se) {
   var topOfWindow = $(window).scrollTop();
-  var imageOuterHeight = $('.shattering_title').outerHeight();
-  var imageHeight = $('.shattering_title').height();
+  var homeBannerHeight = $('#home-banner').height();
+  // console.log(homeBannerHeight/7);
+  var run_animation = false;
 
-  console.log (topOfWindow < imageOuterHeight/5);
-
-  if (topOfWindow < imageOuterHeight/5) {
-    tl.staggerTo(path, duration, stagger_opts_out, stagger_val);
+  if(showHide === ""){
+    showHide = (topOfWindow > homeBannerHeight/7);
+    run_animation = true;
   } else {
-    
-    tl.staggerTo(path, duration, stagger_opts_in, stagger_val);
+    if (showHide != (topOfWindow > homeBannerHeight/7)){
+      showHide = (topOfWindow > homeBannerHeight/7);
+      run_animation = true;
+    }
+  }
+
+  // console.log(run_animation);
+
+  if(run_animation === true){
+    if (topOfWindow > homeBannerHeight/7) {
+      tl.staggerTo(path, duration, stagger_opts_out, stagger_val);
+    } else if(topOfWindow < homeBannerHeight/7){
+      tl.staggerTo(path, duration, stagger_opts_in, stagger_val);
+    }
   }
 });
